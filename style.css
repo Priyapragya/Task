@@ -1,0 +1,99 @@
+.link{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    margin: 0 20px;
+    }
+.nv link{
+    display: flex;
+}
+.main{
+    padding: 20px;
+    border-bottom: crimson;
+    box-shadow: solid black;
+}
+.logo{
+    text-decoration: none;
+    text-align: justify;
+    font-size: large;
+    text-transform: uppercase;
+    color: coral;
+}
+.m1{
+    top: 50%;
+    left: 40%;
+    transform: translate(-50 -50);
+    text-align: center;
+}
+.In{
+    width: 300px;
+    padding: 10px;
+    margin: 5px 0;
+    border: blue;
+    color: darkslategrey;
+    }
+.button1{
+    color:black;
+    right: 20px;
+    width: 50px;
+    height: 25px;
+    background:plum;
+    border-radius: 5px;
+}
+.button1:hover{
+    cursor: pointer;
+    background-color: cyan;
+    transition: 2s;
+}
+
+  .bg{
+      width: 100%;
+      height: 100vh;
+      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHUmdkcZfvTqjUN_N3n1gpRyBj62IyQSQ3DA&usqp=CAU);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed ;
+  }
+    .pink{
+      width: 70%;
+      height: 500px;
+      background: linear-gradient(rgb(139, 113, 113), yellow, pink, green);
+      text-align: center;
+      border-radius: 50%;
+      padding: 10px;
+  }
+  .pink1{
+      width: 50%;
+      height: 500px;
+      background: linear-gradient(pink, white, yellow);
+      padding: 10px;
+      text-shadow: blue;
+      color:blueviolet;
+      box-shadow: cadetblue;
+      text-align: center;
+  }
+  .bg1{
+      position: relative;
+      /* top: 50%; */
+      /* left: 50%; */
+      /* transform: translate(50 50); */
+      text-align: center;
+      color: gainsboro;
+  }
+  .foot{
+      background-color: rebeccapurple;
+      color: seashell;
+      justify-content: center;
+  }
+  .col1{
+      justify-content: center;
+      text-align: center;
+      
+  }
+  *{
+      margin: 0;
+      padding: 0;
+  } 
